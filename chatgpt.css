@@ -1,0 +1,67 @@
+/* Apply a modern font and set a background color */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Center align the header text and remove text decoration from navigation links */
+  header h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the main content section */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the blog post articles */
+  article {
+    margin-bottom: 40px;
+  }
+  
+  article h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  article p {
+    color: #555;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
